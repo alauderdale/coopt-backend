@@ -2,25 +2,26 @@
 	margin-bottom:0;
 	thead{
 		text-transform:uppercase;
+		font-size:.8em;
 		background-color:tint($primary-color,95%);
 		border-top:1px solid tint($primary-color,80%);
 		border-bottom:1px solid tint($primary-color,80%);
 		tr{
 			th{
 				border-bottom:1px solid tint($primary-color,80%);
-				padding-top:$baseline!important;
-				padding-bottom:$baseline!important;
+				padding-top:$baseline/1.5!important;
+				padding-bottom:$baseline/1.5!important;
 			}
 		}
 	}
 	tbody{
 		tr{
 			td{
-				padding-top:$baseline!important;
-				padding-bottom:$baseline!important;
+				padding-top:$baseline/1.5!important;
+				padding-bottom:$baseline/1.5!important;
 			}
 			&:nth-of-type(odd){
-				background-color:#f9f9f9;
+				background-color:#FDFCFC;
 			}
 		}
 	}
