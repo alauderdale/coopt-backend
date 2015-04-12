@@ -1,0 +1,98 @@
+;;;
+"title": "Billing",
+"page_title": "Billing"
+;;;
+
+
+= partial "/shared/page-header"
+%section.no-padding-top
+	.container
+		.row
+			.col-lg-12
+				%h3
+					Billing info
+				%dl.dl-horizontal.margin-top
+					%dt
+						Email
+					%dd.margin-bottom
+						john@doe.com
+						%br
+						%a{:href=>"#", "data-toggle"=>"modal", "data-target"=>"#modal-change-email"}
+							Change
+					%dt
+						Payment Method
+					%dd
+						Visa ending in (0099)
+						%br
+						%a{:href=>"#", "data-toggle"=>"modal", "data-target"=>"#modal-change-billing"}
+							Change
+
+
+
+.modal.fade#modal-change-billing
+	.modal-dialog
+		.modal-content
+			.modal-header
+				%button.close{"aria-label" => "Close", "data-dismiss" => "modal", :type => "button"}
+					%span{"aria-hidden" => "true"} 
+						&times;
+				%h3.modal-title 
+					Update payment method
+			.modal-body
+				%img.img-responsive.margin-bottom{:src=>"/images/cards.png"}
+				.row
+					.col-sm-6.margin-bottom
+						%label.control-label
+							Card Number
+						%input.form-control{:placeholder => "Ex: 999 999 999 999", :type => "text"}
+					.col-sm-3.margin-bottom
+						%label.control-label
+							Security Code
+						%input.form-control{:placeholder => "Ex: 034", :type => "text"}
+					.col-sm-3.margin-bottom
+						%label.control-label
+							Expiration
+						%input.form-control{:placeholder => "MM/YY", :type => "text"}
+				.row
+					.col-sm-6.margin-bottom
+						%label.control-label
+							Billing Zip
+						%input.form-control{:placeholder => "Ex: 33445", :type => "text"}
+					.col-sm-6.margin-bottom
+						%label.control-label
+							Country
+						%select.form-control
+							%option
+								United States
+							%option
+								Another Country
+			.modal-footer
+				%button.btn.btn-link{"data-dismiss" => "modal", :type => "button"} 
+					Close
+				%button.btn.btn-primary{:type => "button"} 
+					Save
+
+
+
+
+.modal.fade#modal-change-email
+	.modal-dialog.modal-sm
+		.modal-content
+			.modal-header
+				%button.close{"aria-label" => "Close", "data-dismiss" => "modal", :type => "button"}
+					%span{"aria-hidden" => "true"} 
+						&times;
+				%h3.modal-title 
+					Update Email
+			.modal-body
+				.row
+					.col-sm-12.margin-bottom
+						%label.control-label
+							Email
+						%input.form-control{:placeholder => "Ex: john@doe.com", :type => "text"}
+
+			.modal-footer
+				%button.btn.btn-link{"data-dismiss" => "modal", :type => "button"} 
+					Close
+				%button.btn.btn-primary{:type => "button"} 
+					Save

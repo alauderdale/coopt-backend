@@ -400,8 +400,14 @@ blockquote{
   text-decoration:line-through;
 }
 
+.page-header{
+  border-bottom-color:$border-color;
+}
 
 
+hr{
+  border-top-color:$border-color;
+}
 
 
 ////lists

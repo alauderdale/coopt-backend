@@ -16,12 +16,16 @@
 	}
 	tbody{
 		tr{
+			transition-duration:.3s;
 			td{
 				padding-top:$baseline/1.5!important;
 				padding-bottom:$baseline/1.5!important;
 			}
 			&:nth-of-type(odd){
 				background-color:#FDFCFC;
+			}
+			&:hover{
+				background-color:#f2f2f2;
 			}
 		}
 	}
