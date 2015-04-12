@@ -1,0 +1,99 @@
+//dollar picker
+
+
+section.section-dollar{
+	margin-bottom:90px;
+	@include breakpoint(sm) {
+  	margin-bottom:30px;
+  }
+}
+
+.cashBack{
+	margin-bottom:-150px;
+	@include breakpoint(sm) {
+  	margin-bottom:-105px;
+  }
+}
+
+.yep{
+	position:relative;
+	display:inline-block;
+}
+
+.rewardControl{
+	box-shadow: 3px 0px 10px 0px rgba(0,0,0,0.20);
+	border-radius:6px;
+}
+
+input[type="text"].reward{
+	background-color: #fff;
+  border-radius: 6px 0 0 6px;
+  box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  font-family: $flourish-font-name-bold;
+  font-size: 134px;
+  line-height: 1.265 !important;
+  margin: 0;
+  padding: 0 3%;
+  text-align: center;
+  width: 100%;
+  border:none;
+
+
+  @include breakpoint(sm) {
+    font-size: 70px;
+  }
+
+}
+
+.rewardInputContainer{
+  float: left;
+  width: 60%;
+}
+
+.unitContainer{
+
+  box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  width: 40%
+}
+
+a.units{
+	background-color: white;
+  color: #afafaf;
+  box-sizing: border-box;
+  font-size: 18px;
+  line-height: 185%;
+  padding: 32px 12px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  cursor:pointer;
+  font-family:$bold-font-name;
+  transition-duration:.3s;
+  &:hover{
+  	text-decoration:none;
+  }
+  &:nth-child(1){
+  	border-radius: 0 6px 0 0;
+  }
+  &:nth-child(2){
+  	border-radius: 0 0 6px 0;
+  }
+  @include breakpoint(sm) {
+  	font-size:12px;
+  	padding: 14px 12px;
+  }
+}
+
+.unitContainer a.selected{
+	background-color: #FFFFFF;
+  color: #59c1ae;
+}
+
+.units.unselected{
+	  box-shadow: 140px 0 90px -180px inset;
+	  background-color:tint($primary-color,95%);
+}

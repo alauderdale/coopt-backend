@@ -3,6 +3,142 @@
 ;;;
 
 
+%section.invert-section.text-center.section-dollar
+	.container
+		.row
+			.col-lg-12
+				%h1
+					Welcome Friend!
+				%p
+					You're currently rewarding 
+					%strong
+						$10 
+					cash back for successful shares
+				=partial"sales-report/dollar-select"
+%section.no-padding-bottom
+	.container
+		.row
+			.col-sm-6
+				.padded.no-padding-bottom
+					%h4
+						REWARD VALUE
+					%p
+						%small
+							Reward Notes: $5 is a solid reward, but you may change the above number to any value you see fit. This is the amount that you will pay the customer back after a successful share. Remember, it pays to be generous.
+			.col-sm-6
+				.padded.no-padding-bottom
+					%h4
+						UNIT VALUE
+					%p
+						%small
+							Set to dollars by default, but you have the option to switch to a percentage reward value. Try giving back 5% of the customer's total order. They'll love it!
+		.row
+			.col-lg-12.text-center
+				%a.btn.btn-info.btn-lg{:href=>"#"}
+					Update Reward Settings
+%section.no-padding-top
+	.container
+		.row
+			.col-lg-12
+				.page-header
+					%h2
+						Installation
+		.row.double-margin-bottom.double-margin-top
+			.col-sm-4
+				%h4
+					Step 1
+				%p
+					%strong
+						Copy 
+					this code
+			.col-sm-1
+			.col-sm-7
+				%form{:name=>"formcopy",:action=>""}
+					.form-group
+						%textarea.form-control#texttocopy{:rows=>"10", :name=>"texttocopy", "onclick"=>"this.form.texttocopy.focus();this.form.texttocopy.select();"}
+							:escaped
+								<div class="coopt wash"></div>
+								<!-- END WASH -->
+								<div class="coopt modal">
+								  <input type="hidden" id="coopt-customer-url" value="lazer-shirts.myshopify.com" />
+								  <div class="coopt particles">
+								    <ul class="coopt dollars">
+								      <li>$</li>
+								      <li>$</li>
+								      <li>$</li>
+								      <li>$</li>
+								    </ul>
+								    <!-- END DOLLAR PARTICLES -->
+								    <ul class="coopt euros">
+								      <li>&euro;</li>
+								      <li>&euro;</li>
+								      <li>&euro;</li>
+								      <li>&euro;</li>
+								      <li>&euro;</li>
+								    </ul>
+								    <!-- END EURO PARTICLES -->
+								    <ul class="coopt pounds">
+								      <li>&pound;</li>
+								      <li>&pound;</li>
+								      <li>&pound;</li>
+								    </ul>
+								    <!-- END POUND PARTICLES -->
+								  </div>
+								  <!-- END PARTICLES -->
+								  <div class="coopt modalContent">
+								    <a class="coopt close" title="I'll pass, thanks.">&times;</a>
+								    <div class="coopt message">Hey! Share this purchase with your friends on Facebook and instantly earn <span class="coopt green"><span id="coopt-cash-back-amount" class="coopt green">$5</span> cash back!</span></div>
+								    <!-- MESSAGE TO SHARE -->
+								    <form class="shareMessage coopt">
+								      <textarea class="coopt" placeholder="Add additional comments here (optional)"></textarea>
+								    </form>
+								    <!-- END MESSAGE TO SHARE -->
+								    <a href="#" class="coopt cta" id="send">Share Now</a>
+								    <div class="poweredBy coopt">
+								      <span>Powered by:</span>
+								      <span class="brand coopt"></span>
+								    </div>
+								    <!-- END POWERED BY -->
+								  </div>
+								  <!-- END MODAL CONTENT -->
+								  <div class="finePrint coopt">*Cash back will be credited after a successful share, and is processed seperately after a successful purchase.</div>
+								</div>
+								<!-- END MODAL -->
+								<link rel="stylesheet" type="text/css" href="https://app.getcoopt.com/css/modal.css">
+								<script src="https://app.getcoopt.com/javascripts/modal.js"></script>
+		%hr
+		.row.double-margin-top.double-margin-bottom
+			.col-sm-4
+				%h4
+					Step 2
+				%p
+					Navigate to the 
+					%strong
+						cart.liquid 
+					file n your Shopify theme.
+			.col-sm-1
+			.col-sm-7
+				%a.btn.btn-info.btn-lg.btn-block{:href=>"#"}
+					View it here
+		%hr
+		.row.double-margin-top
+			.col-sm-4
+				%h4
+					Step 3
+				%p
+					Paste the COOPT code at the bottom of the 
+					%strong
+						cart.liquid 
+					file, then click 
+					%strong
+						Save 
+					in the top right.
+			.col-sm-1
+			.col-sm-7
+				%img.img-responsive{:src=>"images/example@2x.png"}
+
+
+
 
 
 

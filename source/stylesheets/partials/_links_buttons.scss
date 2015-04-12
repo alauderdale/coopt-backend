@@ -6,11 +6,9 @@ a{
 .btn{
 	border-radius:$base-border-radius;
 	border:none;
-	text-transform:uppercase;
-	letter-spacing:1.5px;
+	letter-spacing:1.2px;
 	font-family:$medium-font-name;
 	font-size:1em;
-	padding:$baseline/2 $baseline;
 	&.btn-primary{
 		background:$primary-color;
 	}

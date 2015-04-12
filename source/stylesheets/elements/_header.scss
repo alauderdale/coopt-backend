@@ -2,6 +2,10 @@
 	background:shade($primary-color,10%);
 	padding:$baseline/2 0;
 	transition-duration:.4s;
+	border:none;
+	.navbar-toggle{
+		border:none;
+	}
 	.navbar-brand{
 		padding-top:0;
 		padding-bottom:0;
@@ -58,4 +62,9 @@
 			}
 		}
 	}
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+	border:none;
+	box-shadow:none;
 }
