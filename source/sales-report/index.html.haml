@@ -1,0 +1,60 @@
+%section.no-padding-top.no-padding-bottom
+	.container
+		.row
+			.col-lg-12
+				.page-header
+					%h2
+						Sales Report
+%section.no-padding-top
+	.container
+		.row
+			.col-lg-12
+				.form-inline.margin-bottom.table-search-form
+					.form-group
+						%h3.form-control-static.quarter-margin-right.dark-text-color
+							Customers
+					.input-group
+						%span.input-group-addon
+							%i.fa.fa-search
+						%input.form-control{:placeholder => "Search", :type => "text"}
+				.table-responsive
+					%table.table.table-striped.base-table
+						%thead
+							%th
+								Name
+							%th
+								Order Number
+							%th
+								Order Ammount
+							%th
+								Cashback Ammount
+						%tbody
+							-5.times do
+								%tr
+									%td
+										Cool Dude
+									%td
+										%a{:href=>"#"}
+											00999999
+									%td
+										$20.00
+									%td
+										$20.00
+				.border-top
+					.pull-left
+						%p.margin-top
+							Page 1 of 3
+					%nav.pull-right
+						%ul.pagination
+							%li
+								%a{"aria-label" => "Previous", :href => "#"}
+									%span{"aria-hidden" => "true"} &laquo;
+							%li.active
+								%a{:href => "#"} 1
+							%li
+								%a{:href => "#"} 2
+							%li
+								%a{:href => "#"} 3
+							%li
+								%a{"aria-label" => "Next", :href => "#"}
+									%span{"aria-hidden" => "true"} &raquo;

@@ -1,0 +1,61 @@
+.main-nav{
+	background:shade($primary-color,10%);
+	padding:$baseline/2 0;
+	transition-duration:.4s;
+	.navbar-brand{
+		padding-top:0;
+		padding-bottom:0;
+	}
+	ul.navbar-nav{
+		li{
+			font-family:$bold-font-name;
+			text-transform:uppercase;
+			font-size:.8em;
+			letter-spacing:1.5px;
+			a{
+				color:white;
+				transition-duration:.2s;
+				&:hover{
+					color:rgba(255,255,255,.8);
+				}
+				&:focus{
+					color:white;
+				}
+			}
+			&.dropdown{
+				&.open{
+					a{
+						background:$primary-color;
+						color:white;
+					}
+				}
+				ul.dropdown-menu{
+					border-radius:$base-border-radius;
+					padding:$baseline/2 0;
+					li{
+						font-family:$medium-font-name;
+						font-size:.8em;
+						a{
+							background:transparent;
+							color:$primary-color;
+							text-transform:none;
+							letter-spacing:0;
+							padding:$baseline/4 $baseline/1.5;
+							&:hover{
+								background:$extra-light-gray-color;
+							}
+							@include breakpoint(sm) {
+								color:white;
+							}
+						}
+						&.divider{
+							@include breakpoint(sm) {
+								display:none;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
