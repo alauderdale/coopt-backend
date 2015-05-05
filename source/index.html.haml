@@ -18,21 +18,43 @@
 %section.no-padding-bottom
 	.container
 		.row
-			.col-sm-6
+			.col-md-4
 				.padded.no-padding-bottom
 					%h4
-						REWARD VALUE
-					%p
-						%small
-							Reward Notes: $5 is a solid reward, but you may change the above number to any value you see fit. This is the amount that you will pay the customer back after a successful share. Remember, it pays to be generous.
-			.col-sm-6
+						OFFER PRESENTATION
+				.padded.no-padding-top
+					.checkbox
+						%label
+							%input{:type => "checkbox", :checked=>""}
+								Display my offer in a popup
+						%p.half-margin-bottom
+							%small
+								Short description about what the popup does. 
+
+					.checkbox
+						%label
+							%input{:type => "checkbox"}
+								Send my offer via email Email
+						%p.no-margin-bottom
+							%small
+								Short description about what the email does.
+			.col-md-4
 				.padded.no-padding-bottom
 					%h4
 						UNIT VALUE
-					%p
+					%p.no-margin-bottom
 						%small
 							Set to dollars by default, but you have the option to switch to a percentage reward value. Try giving back 5% of the customer's total order. They'll love it!
-		.row
+			.col-md-4
+				.padded.no-padding-bottom
+					%h4
+						REWARD VALUE
+					%p.no-margin-bottom
+						%small
+							Reward Notes: $5 is a solid reward, but you may change the above number to any value you see fit. This is the amount that you will pay the customer back after a successful share. Remember, it pays to be generous.
+
+
+		.row.half-margin-top
 			.col-lg-12.text-center
 				%a.btn.btn-info.btn-lg{:href=>"#"}
 					Update Reward Settings

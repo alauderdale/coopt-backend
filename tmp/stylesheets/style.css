@@ -3,12 +3,12 @@
 @import url(lib/bootstrap.css);
 @import url(lib/material-design-iconic-font.css);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
-/* line 6, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_base.scss */
+/* line 6, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_base.scss */
 * {
   margin: 0;
   padding: 0; }
 
-/* line 15, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_base.scss */
+/* line 15, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_base.scss */
 body {
   font: 100%;
   font-size: 14px;
@@ -27,11 +27,11 @@ body {
   padding-top: 74px;
   position: relative; }
 
-/* line 33, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_base.scss */
+/* line 33, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_base.scss */
 .main {
   background-color: #fafafa; }
 
-/* line 40, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_base.scss */
+/* line 40, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_base.scss */
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -40,21 +40,21 @@ body {
   clear: both;
   height: 0; }
 
-/* line 48, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_base.scss */
+/* line 48, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_base.scss */
 * html .clearfix {
   zoom: 1; }
 
 /* IE6 */
-/* line 49, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_base.scss */
+/* line 49, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_base.scss */
 *:first-child + html .clearfix {
   zoom: 1; }
 
 /* IE7 */
-/* line 53, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_base.scss */
+/* line 53, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_base.scss */
 img {
   height: auto; }
 
-/* line 59, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_base.scss */
+/* line 59, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_base.scss */
 .bg-cover {
   background: no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -62,51 +62,51 @@ img {
   -o-background-size: cover;
   background-size: cover; }
 
-/* line 69, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_base.scss */
+/* line 69, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_base.scss */
 .base-line-height {
   line-height: 24px; }
 
-/* line 73, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_base.scss */
+/* line 73, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_base.scss */
 .small-line-height {
   line-height: 18px; }
 
-/* line 77, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_base.scss */
+/* line 77, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_base.scss */
 .full-width {
   width: 100%; }
 
-/* line 81, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_base.scss */
+/* line 81, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_base.scss */
 .max-width {
   max-width: 100%; }
 
-/* line 85, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_base.scss */
+/* line 85, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_base.scss */
 .display-block {
   display: block; }
 
-/* line 89, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_base.scss */
+/* line 89, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_base.scss */
 .inline-block {
   display: inline-block; }
 
-/* line 93, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_base.scss */
+/* line 93, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_base.scss */
 .inline {
   display: inline; }
 
-/* line 98, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_base.scss */
+/* line 98, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_base.scss */
 .border-top {
   border-top: 1px solid #dddddd; }
 
-/* line 101, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_base.scss */
+/* line 101, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_base.scss */
 .border-right {
   border-right: 1px solid #dddddd; }
 
-/* line 104, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_base.scss */
+/* line 104, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_base.scss */
 .border-bottom {
   border-bottom: 1px solid #dddddd; }
 
-/* line 107, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_base.scss */
+/* line 107, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_base.scss */
 .border-left {
   border-left: 1px solid #dddddd; }
 
-/* line 113, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_base.scss */
+/* line 113, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_base.scss */
 .divider-default {
   width: 100px;
   height: 4px;
@@ -115,7 +115,7 @@ img {
   text-align: center;
   margin: 24px auto; }
 
-/* line 124, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_base.scss */
+/* line 124, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_base.scss */
 .icon-circle {
   color: #bbbbbb;
   padding: 10px 10px;
@@ -123,12 +123,12 @@ img {
   border-radius: 100px;
   font-size: 1.5em; }
   @media (max-width: 992px) {
-    /* line 124, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_base.scss */
+    /* line 124, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_base.scss */
     .icon-circle {
       margin-bottom: 12px; } }
 
 @media (max-width: 767px) {
-  /* line 136, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_base.scss */
+  /* line 136, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_base.scss */
   .text-center-sm {
     text-align: center; } }
 
@@ -223,154 +223,154 @@ img {
   font-weight: normal;
   font-style: normal; }
 
-/* line 225, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 225, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .text-columns-2 {
   -webkit-columns: 24px 2;
   -moz-columns: 24px 2;
   columns: 24px 2; }
 
-/* line 228, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 228, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .text-columns-3 {
   -webkit-columns: 24px 3;
   -moz-columns: 24px 3;
   columns: 24px 3; }
 
-/* line 231, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 231, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .text-columns-4 {
   -webkit-columns: 24px 4;
   -moz-columns: 24px 4;
   columns: 24px 4; }
 
-/* line 235, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 235, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .text-uppercase {
   text-transform: uppercase; }
 
-/* line 244, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 244, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .light-font-name {
   font-family: "open_sanslight", Helvetica, Arial, sans-serif; }
 
-/* line 247, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 247, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .regular-font-name {
   font-family: "open_sansregular", Helvetica, Arial, sans-serif; }
 
-/* line 250, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 250, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .medium-font-name {
   font-family: "open_sanssemibold", Helvetica, Arial, sans-serif; }
 
-/* line 253, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 253, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .bold-font-name {
   font-family: "open_sansbold", Helvetica, Arial, sans-serif !important; }
 
-/* line 256, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 256, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .extra-bold-font-name {
   font-family: "open_sansextrabold", Helvetica, Arial, sans-serif; }
 
-/* line 260, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 260, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .social-font-name {
   font-family: "socialicoregular"; }
 
-/* line 267, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 267, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .primary-text-color {
   color: #547bc0 !important; }
-  /* line 269, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+  /* line 269, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
   .primary-text-color p {
     color: #547bc0 !important; }
 
-/* line 274, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 274, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .secondary-text-color {
   color: #59c1ae !important; }
-  /* line 276, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+  /* line 276, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
   .secondary-text-color p {
     color: #59c1ae !important; }
 
-/* line 281, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 281, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .body-text-color {
   color: #666666 !important; }
 
-/* line 285, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 285, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .text-color {
   color: #2a2a2a !important; }
 
-/* line 289, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 289, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .dark-text-color {
   color: #2a2a2a; }
 
-/* line 293, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 293, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .text-success {
   color: #85c342; }
 
-/* line 297, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 297, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .text-warning {
   color: #f0ad4e; }
 
-/* line 301, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 301, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .link-color {
   color: #4a90e2; }
 
-/* line 306, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 306, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .white-text h1, .white-text h2, .white-text h3, .white-text h4, .white-text h5, .white-text h6, .white-text p, .white-text small, .white-text li {
   color: white !important; }
 
-/* line 313, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 313, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .micro-text {
   font-size: .7em; }
 
-/* line 322, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 322, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-weight: inherit; }
 
-/* line 325, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 325, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   margin-bottom: 12px; }
 
-/* line 334, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 334, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 p {
   font-size: 1em; }
 
-/* line 335, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 335, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 h1 {
   font-size: 2.5em; }
 
-/* line 336, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 336, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 h2 {
   font-size: 1.7em; }
 
-/* line 337, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 337, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 h3 {
   font-size: 1.2em; }
 
-/* line 338, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 338, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 h4 {
   font-size: 1em; }
 
-/* line 339, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 339, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 h5 {
   font-size: 1em;
   letter-spacing: 2pt;
   text-transform: uppercase; }
 
-/* line 340, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 340, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 h6 {
   font-size: 0.8em; }
 
-/* line 346, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 346, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 h2 {
   line-height: 1.6em;
   font-family: "open_sanslight", Helvetica, Arial, sans-serif; }
 
-/* line 351, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 351, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 h3 {
   line-height: 1.6em; }
 
-/* line 355, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 355, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 h4 {
   font-family: "open_sansbold", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 2pt;
   line-height: 1.6em; }
 
-/* line 362, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 362, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 h5 {
   color: #666666;
   text-transform: uppercase;
@@ -378,60 +378,60 @@ h5 {
   font-family: "brandon_grotesquelight";
   letter-spacing: 1px; }
 
-/* line 370, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 370, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 p {
   color: #666666;
   line-height: 1.8em;
   margin-bottom: 48px; }
-  /* line 374, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+  /* line 374, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
   p small {
     line-height: 1.5em; }
 
-/* line 380, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 380, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 blockquote {
   border-left-color: #f1d2f6; }
-  /* line 382, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+  /* line 382, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
   blockquote p {
     font-family: "brandon_grotesquelight";
     font-size: 1.5em;
     margin-bottom: 12px;
     line-height: 1.2em;
     color: #2a2a2a; }
-  /* line 389, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+  /* line 389, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
   blockquote footer {
     color: #2a2a2a; }
-    /* line 391, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+    /* line 391, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
     blockquote footer cite {
       color: #bbbbbb; }
 
-/* line 398, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 398, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .signature {
   font-family: "open_sanslight", Helvetica, Arial, sans-serif;
   font-size: .8em; }
 
-/* line 405, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 405, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .line-through {
   text-decoration: line-through; }
 
-/* line 409, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 409, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .page-header {
   border-bottom-color: #dddddd; }
 
-/* line 414, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 414, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 hr {
   border-top-color: #dddddd; }
 
-/* line 422, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 422, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 dl.list-get-started {
   counter-reset: my-badass-counter;
   margin-bottom: 48px; }
-  /* line 426, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+  /* line 426, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
   dl.list-get-started dt {
     margin-bottom: 12px;
     color: #666666;
     font-family: "open_sanslight", Helvetica, Arial, sans-serif;
     font-size: 1em; }
-    /* line 427, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+    /* line 427, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
     dl.list-get-started dt:before {
       content: counter(my-badass-counter) ".";
       counter-increment: my-badass-counter;
@@ -439,41 +439,41 @@ dl.list-get-started {
       font-family: "open_sansbold", Helvetica, Arial, sans-serif;
       margin-right: 10px; }
 
-/* line 441, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 441, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 ul.supported-platforms {
   float: left;
   margin-top: 12px; }
-  /* line 444, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+  /* line 444, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
   ul.supported-platforms li {
     margin-right: 12px; }
 
-/* line 452, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_typography.scss */
+/* line 452, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 ul.pagination li a {
   background: transparent; }
 
-/* line 2, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_links_buttons.scss */
+/* line 2, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_links_buttons.scss */
 a {
   color: #4a90e2; }
 
-/* line 6, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_links_buttons.scss */
+/* line 6, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_links_buttons.scss */
 .btn {
   border-radius: 3px;
   border: none;
   letter-spacing: 1.2px;
   font-family: "open_sanssemibold", Helvetica, Arial, sans-serif;
   font-size: 1em; }
-  /* line 12, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_links_buttons.scss */
+  /* line 12, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_links_buttons.scss */
   .btn.btn-primary {
     background: #547bc0; }
-  /* line 15, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_links_buttons.scss */
+  /* line 15, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_links_buttons.scss */
   .btn.btn-info {
     background: #59c1ae; }
-  /* line 18, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_links_buttons.scss */
+  /* line 18, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_links_buttons.scss */
   .btn.btn-default {
     background: #d269e1;
     color: white; }
 
-/* line 24, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_links_buttons.scss */
+/* line 24, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_links_buttons.scss */
 a.play-video-button {
   background: white;
   text-align: center;
@@ -486,333 +486,333 @@ a.play-video-button {
   position: relative;
   top: 36px;
   transition-duration: .5s; }
-  /* line 36, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_links_buttons.scss */
+  /* line 36, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_links_buttons.scss */
   a.play-video-button:hover {
     background-color: #f2f2f2; }
 
-/* line 2, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 2, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .margin-auto {
   margin: 0 auto; }
 
-/* line 5, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 5, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .margin {
   margin: 24px !important; }
 
-/* line 8, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 8, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .margin-top {
   margin-top: 24px !important; }
 
-/* line 11, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 11, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .margin-right {
   margin-right: 24px !important; }
 
-/* line 14, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 14, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .margin-bottom {
   margin-bottom: 24px !important; }
 
-/* line 17, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 17, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .margin-left {
   margin-left: 24px !important; }
 
-/* line 20, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 20, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .double-margin-top {
   margin-top: 48px !important; }
 
-/* line 23, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 23, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .double-margin-right {
   margin-right: 48px !important; }
 
-/* line 26, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 26, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .double-margin-bottom {
   margin-bottom: 48px !important; }
 
-/* line 29, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 29, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .double-margin-left {
   margin-left: 48px !important; }
 
-/* line 32, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 32, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .triple-margin-top {
   margin-top: 72px !important; }
 
-/* line 35, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 35, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .triple-margin-right {
   margin-right: 72px !important; }
 
-/* line 38, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 38, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .triple-margin-bottom {
   margin-bottom: 72px !important; }
 
-/* line 41, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 41, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .triple-margin-left {
   margin-left: 72px !important; }
 
-/* line 44, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 44, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .half-margin-top {
   margin-top: 12px !important; }
 
-/* line 47, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 47, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .half-margin-right {
   margin-right: 12px !important; }
 
-/* line 50, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 50, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .half-margin-bottom {
   margin-bottom: 12px !important; }
 
-/* line 53, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 53, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .half-margin-left {
   margin-left: 12px !important; }
 
-/* line 56, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 56, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .quarter-margin-top {
   margin-top: 6px !important; }
 
-/* line 59, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 59, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .quarter-margin-right {
   margin-right: 6px !important; }
 
-/* line 62, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 62, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .quarter-margin-bottom {
   margin-bottom: 6px !important; }
 
-/* line 65, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 65, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .quarter-margin-left {
   margin-left: 6px !important; }
 
-/* line 68, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 68, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .no-margin {
   margin: 0px !important; }
 
-/* line 71, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 71, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .no-margin-top {
   margin-top: 0px !important; }
 
-/* line 74, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 74, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .no-margin-right {
   margin-right: 0px !important; }
 
-/* line 77, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 77, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .no-margin-bottom {
   margin-bottom: 0px !important; }
 
-/* line 80, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 80, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .no-margin-left {
   margin-left: 0px !important; }
 
-/* line 83, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 83, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .large-margin-top {
   margin-top: 72px !important; }
 
-/* line 88, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 88, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .padded {
   padding: 24px !important; }
 
-/* line 91, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 91, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .padding-top {
   padding-top: 24px !important; }
 
-/* line 94, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 94, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .padding-right {
   padding-right: 24px !important; }
 
-/* line 97, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 97, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .padding-bottom {
   padding-bottom: 24px !important; }
 
-/* line 100, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 100, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .padding-left {
   padding-left: 24px !important; }
 
-/* line 103, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 103, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .double-padded {
   padding: 48px !important; }
 
-/* line 106, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 106, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .double-padding-top {
   padding-top: 48px !important; }
 
-/* line 109, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 109, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .double-padding-right {
   padding-right: 48px !important; }
 
-/* line 112, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 112, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .double-padding-bottom {
   padding-bottom: 48px !important; }
 
-/* line 115, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 115, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .double-padding-left {
   padding-left: 48px !important; }
 
-/* line 118, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 118, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .triple-padding-top {
   padding-top: 72px !important; }
 
-/* line 121, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 121, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .triple-padding-right {
   padding-right: 72px !important; }
 
-/* line 124, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 124, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .triple-padding-bottom {
   padding-bottom: 72px !important; }
 
-/* line 127, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 127, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .triple-padding-left {
   padding-left: 72px !important; }
 
-/* line 130, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 130, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .no-padding {
   padding: 0px !important; }
 
-/* line 133, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 133, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .no-padding-top {
   padding-top: 0px !important; }
 
-/* line 136, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 136, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .no-padding-right {
   padding-right: 0px !important; }
 
-/* line 139, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 139, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .no-padding-bottom {
   padding-bottom: 0px !important; }
 
-/* line 142, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 142, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .no-padding-left {
   padding-left: 0px !important; }
 
-/* line 145, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 145, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .half-padding {
   padding: 12px !important; }
 
-/* line 148, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 148, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .half-padding-top {
   padding-top: 12px !important; }
 
-/* line 151, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 151, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .half-padding-right {
   padding-right: 12px !important; }
 
-/* line 154, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 154, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .half-padding-bottom {
   padding-bottom: 12px !important; }
 
-/* line 157, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 157, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .half-padding-left {
   padding-left: 12px !important; }
 
-/* line 160, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 160, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .quarter-padding {
   padding: 6px !important; }
 
-/* line 163, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 163, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .quarter-padding-top {
   padding-top: 6px !important; }
 
-/* line 166, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 166, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .quarter-padding-right {
   padding-right: 6px !important; }
 
-/* line 169, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 169, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .quarter-padding-bottom {
   padding-bottom: 6px !important; }
 
-/* line 172, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_margin_padding_helpers.scss */
+/* line 172, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_margin_padding_helpers.scss */
 .quarter-padding-left {
   padding-left: 6px !important; }
 
-/* line 4, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_sections.scss */
+/* line 4, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_sections.scss */
 section {
   padding: 48px 0; }
-  /* line 6, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_sections.scss */
+  /* line 6, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_sections.scss */
   section.invert-section, section.home-hero-sction, section.home-pricing-sction {
     background-color: #547bc0; }
-    /* line 8, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_sections.scss */
+    /* line 8, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_sections.scss */
     section.invert-section h1, section.home-hero-sction h1, section.home-pricing-sction h1, section.invert-section h2, section.home-hero-sction h2, section.home-pricing-sction h2, section.invert-section h3, section.home-hero-sction h3, section.home-pricing-sction h3, section.invert-section h4, section.home-hero-sction h4, section.home-pricing-sction h4, section.invert-section h6, section.home-hero-sction h6, section.home-pricing-sction h6, section.invert-section p, section.home-hero-sction p, section.home-pricing-sction p, section.invert-section li, section.home-hero-sction li, section.home-pricing-sction li, section.invert-section small, section.home-hero-sction small, section.home-pricing-sction small {
       color: white; }
 
-/* line 1, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_tables.scss */
+/* line 1, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_tables.scss */
 .base-table {
   margin-bottom: 0; }
-  /* line 3, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_tables.scss */
+  /* line 3, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_tables.scss */
   .base-table thead {
     text-transform: uppercase;
     font-size: .8em;
     background-color: #f6f8fb;
     border-top: 1px solid #dce4f2;
     border-bottom: 1px solid #dce4f2; }
-    /* line 10, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_tables.scss */
+    /* line 10, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_tables.scss */
     .base-table thead tr th {
       border-bottom: 1px solid #dce4f2;
       padding-top: 16px !important;
       padding-bottom: 16px !important; }
-  /* line 18, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_tables.scss */
+  /* line 18, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_tables.scss */
   .base-table tbody tr {
     transition-duration: .3s; }
-    /* line 20, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_tables.scss */
+    /* line 20, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_tables.scss */
     .base-table tbody tr td {
       padding-top: 16px !important;
       padding-bottom: 16px !important; }
-    /* line 24, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_tables.scss */
+    /* line 24, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_tables.scss */
     .base-table tbody tr:nth-of-type(odd) {
       background-color: #FDFCFC; }
-    /* line 27, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_tables.scss */
+    /* line 27, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_tables.scss */
     .base-table tbody tr:hover {
       background-color: #f2f2f2; }
 
-/* line 1, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_panels_wells.scss */
+/* line 1, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_panels_wells.scss */
 .card {
   padding: 24px;
   background: white;
   width: 100%;
   box-shadow: 0 8px 0 #4A6593; }
   @media (max-width: 992px) {
-    /* line 1, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_panels_wells.scss */
+    /* line 1, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_panels_wells.scss */
     .card {
       margin-bottom: 24px; } }
-  /* line 10, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_panels_wells.scss */
+  /* line 10, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_panels_wells.scss */
   .card .pricing-text .dollar-sign {
     font-size: 1.4em;
     font-family: "open_sansbold", Helvetica, Arial, sans-serif;
     position: relative;
     top: -20px; }
-  /* line 16, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_panels_wells.scss */
+  /* line 16, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_panels_wells.scss */
   .card .pricing-text .price {
     font-size: 5em;
     font-family: "open_sansbold", Helvetica, Arial, sans-serif; }
-  /* line 20, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_panels_wells.scss */
+  /* line 20, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_panels_wells.scss */
   .card .pricing-text .transaction-unit {
     position: relative;
     left: -10px; }
 
-/* line 2, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_modals.scss */
+/* line 2, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_modals.scss */
 .modal-dialog .modal-content {
   border-radius: 3px;
   background-color: #F5F6F8; }
-  /* line 5, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_modals.scss */
+  /* line 5, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_modals.scss */
   .modal-dialog .modal-content .modal-header {
     background-color: white; }
 
-/* line 2, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_forms.scss */
+/* line 2, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_forms.scss */
 .table-search-form .input-group-addon {
   background: transparent;
   border: none;
   border-left: 1px solid #dddddd;
   color: #bbbbbb;
   padding-right: 0; }
-/* line 9, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_forms.scss */
+/* line 9, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_forms.scss */
 .table-search-form input.form-control {
   border: none;
   background: transparent;
   box-shadow: none; }
 
-/* line 1, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_alerts.scss */
+/* line 1, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_alerts.scss */
 .alert-info {
   background: #ffffdf;
   border-color: #e5e1a7;
   color: #666666; }
-  /* line 4, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_alerts.scss */
+  /* line 4, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_alerts.scss */
   .alert-info strong {
     color: #2a2a2a; }
 
-/* line 1, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_videos.scss */
+/* line 1, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_videos.scss */
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
@@ -820,7 +820,7 @@ section {
   padding-top: 25px;
   height: 0; }
 
-/* line 7, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/partials/_videos.scss */
+/* line 7, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_videos.scss */
 .videoWrapper iframe {
   position: absolute;
   top: 0;
@@ -828,120 +828,120 @@ section {
   width: 100%;
   height: 100%; }
 
-/* line 1, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_header.scss */
+/* line 1, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
 .main-nav {
   background: #4b6eac;
   padding: 12px 0;
   transition-duration: .4s;
   border: none; }
-  /* line 6, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_header.scss */
+  /* line 6, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
   .main-nav .navbar-toggle {
     border: none; }
-  /* line 9, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_header.scss */
+  /* line 9, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
   .main-nav .navbar-brand {
     padding-top: 0;
     padding-bottom: 0; }
-  /* line 14, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_header.scss */
+  /* line 14, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
   .main-nav ul.navbar-nav li {
     font-family: "open_sansbold", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-size: .8em;
     letter-spacing: 1.5px; }
-    /* line 19, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_header.scss */
+    /* line 19, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
     .main-nav ul.navbar-nav li a {
       color: white;
       transition-duration: .2s; }
-      /* line 22, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_header.scss */
+      /* line 22, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
       .main-nav ul.navbar-nav li a:hover {
         color: rgba(255, 255, 255, 0.8); }
-      /* line 25, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_header.scss */
+      /* line 25, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
       .main-nav ul.navbar-nav li a:focus {
         color: white; }
-    /* line 31, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_header.scss */
+    /* line 31, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
     .main-nav ul.navbar-nav li.dropdown.open a {
       background: #547bc0;
       color: white; }
-    /* line 36, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_header.scss */
+    /* line 36, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
     .main-nav ul.navbar-nav li.dropdown ul.dropdown-menu {
       border-radius: 3px;
       padding: 12px 0; }
-      /* line 39, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_header.scss */
+      /* line 39, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
       .main-nav ul.navbar-nav li.dropdown ul.dropdown-menu li {
         font-family: "open_sanssemibold", Helvetica, Arial, sans-serif;
         font-size: .8em; }
-        /* line 42, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_header.scss */
+        /* line 42, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
         .main-nav ul.navbar-nav li.dropdown ul.dropdown-menu li a {
           background: transparent;
           color: #547bc0;
           text-transform: none;
           letter-spacing: 0;
           padding: 6px 16px; }
-          /* line 48, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_header.scss */
+          /* line 48, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
           .main-nav ul.navbar-nav li.dropdown ul.dropdown-menu li a:hover {
             background: #fafafa; }
           @media (max-width: 767px) {
-            /* line 42, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_header.scss */
+            /* line 42, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
             .main-nav ul.navbar-nav li.dropdown ul.dropdown-menu li a {
               color: white; } }
         @media (max-width: 767px) {
-          /* line 55, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_header.scss */
+          /* line 55, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
           .main-nav ul.navbar-nav li.dropdown ul.dropdown-menu li.divider {
             display: none; } }
 
-/* line 67, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_header.scss */
+/* line 67, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
   border: none;
   box-shadow: none; }
 
-/* line 4, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_footer.scss */
+/* line 4, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_footer.scss */
 footer.main-footer img.footer-logo {
   position: relative;
   left: 10px; }
 
-/* line 1, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_home.scss */
+/* line 1, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_home.scss */
 .home-hero-sction {
   background: #547bc0 url("../../images/main_banner.png") no-repeat scroll center top;
   background-size: cover; }
-  /* line 5, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_home.scss */
+  /* line 5, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_home.scss */
   .home-hero-sction .btn {
     border: 1px solid white; }
 
-/* line 10, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_home.scss */
+/* line 10, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_home.scss */
 .home-pricing-sction {
   background: #547bc0 url("../../images/macbook_banner.png") no-repeat scroll center top;
   background-size: cover; }
 
-/* line 19, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_home.scss */
+/* line 19, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_home.scss */
 .home-quote-section blockquote {
   margin-bottom: 48px; }
 
-/* line 4, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_dollar_picker.scss */
+/* line 4, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_dollar_picker.scss */
 section.section-dollar {
   margin-bottom: 90px; }
   @media (max-width: 767px) {
-    /* line 4, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_dollar_picker.scss */
+    /* line 4, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_dollar_picker.scss */
     section.section-dollar {
       margin-bottom: 30px; } }
 
-/* line 11, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_dollar_picker.scss */
+/* line 11, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_dollar_picker.scss */
 .cashBack {
   margin-bottom: -150px; }
   @media (max-width: 767px) {
-    /* line 11, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_dollar_picker.scss */
+    /* line 11, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_dollar_picker.scss */
     .cashBack {
       margin-bottom: -105px; } }
 
-/* line 18, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_dollar_picker.scss */
+/* line 18, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_dollar_picker.scss */
 .yep {
   position: relative;
   display: inline-block; }
 
-/* line 23, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_dollar_picker.scss */
+/* line 23, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_dollar_picker.scss */
 .rewardControl {
   box-shadow: 3px 0px 10px 0px rgba(0, 0, 0, 0.2);
   border-radius: 6px; }
 
-/* line 28, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_dollar_picker.scss */
+/* line 28, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_dollar_picker.scss */
 input[type="text"].reward {
   background-color: #fff;
   border-radius: 6px 0 0 6px;
@@ -957,23 +957,23 @@ input[type="text"].reward {
   width: 100%;
   border: none; }
   @media (max-width: 767px) {
-    /* line 28, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_dollar_picker.scss */
+    /* line 28, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_dollar_picker.scss */
     input[type="text"].reward {
       font-size: 70px; } }
 
-/* line 50, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_dollar_picker.scss */
+/* line 50, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_dollar_picker.scss */
 .rewardInputContainer {
   float: left;
   width: 60%; }
 
-/* line 55, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_dollar_picker.scss */
+/* line 55, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_dollar_picker.scss */
 .unitContainer {
   box-sizing: border-box;
   display: inline-block;
   float: left;
   width: 40%; }
 
-/* line 63, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_dollar_picker.scss */
+/* line 63, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_dollar_picker.scss */
 a.units {
   background-color: white;
   color: #afafaf;
@@ -987,48 +987,48 @@ a.units {
   cursor: pointer;
   font-family: "open_sansbold", Helvetica, Arial, sans-serif;
   transition-duration: .3s; }
-  /* line 76, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_dollar_picker.scss */
+  /* line 76, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_dollar_picker.scss */
   a.units:hover {
     text-decoration: none; }
-  /* line 79, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_dollar_picker.scss */
+  /* line 79, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_dollar_picker.scss */
   a.units:nth-child(1) {
     border-radius: 0 6px 0 0; }
-  /* line 82, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_dollar_picker.scss */
+  /* line 82, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_dollar_picker.scss */
   a.units:nth-child(2) {
     border-radius: 0 0 6px 0; }
   @media (max-width: 767px) {
-    /* line 63, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_dollar_picker.scss */
+    /* line 63, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_dollar_picker.scss */
     a.units {
       font-size: 12px;
       padding: 14px 12px; } }
 
-/* line 91, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_dollar_picker.scss */
+/* line 91, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_dollar_picker.scss */
 .unitContainer a.selected {
   background-color: #FFFFFF;
   color: #59c1ae; }
 
-/* line 96, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_dollar_picker.scss */
+/* line 96, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_dollar_picker.scss */
 .units.unselected {
   box-shadow: 140px 0 90px -180px inset;
   background-color: #f6f8fb; }
 
-/* line 1, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_login.css.scss */
+/* line 1, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_login.css.scss */
 .url-container {
   background: white;
   border: 1px solid #dddddd;
   border-radius: 3px; }
-  /* line 5, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_login.css.scss */
+  /* line 5, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_login.css.scss */
   .url-container input {
     background: transparent;
     border: none;
     text-align: right;
     box-shadow: none;
     color: #547bc0; }
-    /* line 11, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_login.css.scss */
+    /* line 11, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_login.css.scss */
     .url-container input:focus {
       box-shadow: none;
       border: none; }
-  /* line 17, /Users/alauderdale/Dropbox/clients/SSILogic/COOPT/SITES/coopt_backend/source/stylesheets/elements/_login.css.scss */
+  /* line 17, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_login.css.scss */
   .url-container .shopify-description p {
     font-size: 18px;
     padding: 10px 16px;
