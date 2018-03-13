@@ -1,0 +1,80 @@
+;;;
+"title": "Abandon cart",
+"layout": "new-cart"
+;;;
+
+///mobile nav
+%nav.navbar.navbar-inverse.navbar-default.navbar-fixed-bottom.main-nav.visible-xs{:style=>"height:57px;"}
+	.container
+		%ul.list-inline.pull-right.no-margin-bottom
+			%li
+				%a.btn.btn-wire{:href => "/sales-report"} 
+					Preview
+			%li
+				%a.btn.btn-info{:href => "/sales-report"} 
+					Save and close
+			%li
+				.dropup
+					%button.more.btn-link.btn.white-link.dropdown-toggle{"aria-expanded" => "false", "data-toggle" => "dropdown", :type => "button"}
+						%i.fa.fa-ellipsis-h
+					%ul.dropdown-menu{:role => "menu"}
+						%li
+							%a{:href => "#"} 
+								Send test email
+						%li
+							%a{:href => "#"} 
+								Reset template
+						%li
+							%a{:href => "#"} 
+								Delete reminder
+	}
+
+%nav.navbar.navbar-inverse.navbar-default.navbar-fixed-top.main-nav
+	.container
+		.navbar-header.white-text
+			%h2.regular-font-name
+				%a.close-popup.half-margin-right{:href=>"/abandon"}
+					×
+				Fourth Reminder
+		%ul.nav.navbar-nav.pull-right.actions.hidden-xs
+			%li
+				%a.btn.btn-wire{:href => "/abandon"} 
+					Preview
+			%li
+				%a.btn.btn-info{:href => "/abandon"} 
+					Save and close
+			%li
+				%button.more.btn-link.btn.white-link.dropdown-toggle{"aria-expanded" => "false", "data-toggle" => "dropdown", :type => "button"}
+					%i.fa.fa-ellipsis-h
+				%ul.dropdown-menu.dd{:role => "menu"}
+					%li
+						%a{:href => "#"} 
+							Send test email
+					%li
+						%a{:href => "#"} 
+							Reset template
+					%li
+						%a{:href => "#"} 
+							Delete reminder
+
+
+
+
+
+%section.invert-section.text-center.section-dollar
+	.container
+		.row
+			.col-lg-12
+				
+				
+
+
+
+
+
+
+
+
+
+
+

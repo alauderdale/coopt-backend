@@ -1,0 +1,76 @@
+;;;
+"title": "Abandon cart"
+;;;
+
+
+%section.invert-section.text-center
+	.container
+		.row
+			.col-lg-12
+				%h1
+					Welcome Friend!
+				%p.no-margin-bottom
+					Set your abandon checkout reminders here. 
+%section.no-padding-bottom
+	.container
+		.row
+			.col-lg-12
+				.margin-bottom
+					.pull-left
+						%h2.regular-font-name
+							Reminders
+					.pull-right
+						%a.btn.btn-lg.btn-info{:href=>"/abandon/edit"}
+							+ New Reminder
+					.clearfix
+				.table-responsive
+					%table.table.table-striped.base-table
+						%thead
+							%th
+								Reminder number
+							%th.hidden-xs
+								Time delay
+							%th.hidden-xs
+								Subject
+							%th
+								
+						%tbody
+							-5.times do
+								%tr
+									%td
+										%strong
+											%a{:href=>"/abandon/edit"}
+												Reminder
+									%td.hidden-xs
+										
+										4 min
+									%td.hidden-xs
+										=lorem.words(5)
+									%td
+										.btn-group.pull-right
+											%a.btn.btn-secondary.btn-lg{ :href=>"/abandon/edit"} 
+												Edit
+											%button.btn.btn-secondary.dropdown-toggle.btn-lg{"aria-expanded" => "false", "data-toggle" => "dropdown", :type => "button"}
+												%span.caret
+												%span.sr-only 
+													Toggle Dropdown
+											%ul.dropdown-menu{:role => "menu"}
+												%li
+													%a{:href => "#"} 
+														Delete
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
