@@ -12,7 +12,7 @@
 body {
   font: 100%;
   font-size: 14px;
-  color: #2a2a2a;
+  color: #2A2A2A;
   -webkit-font-smoothing: antialiased;
   /* Fix for webkit rendering */
   -webkit-text-size-adjust: 100%;
@@ -92,19 +92,19 @@ img {
 
 /* line 98, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_base.scss */
 .border-top {
-  border-top: 1px solid #dddddd; }
+  border-top: 1px solid #ddd; }
 
 /* line 101, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_base.scss */
 .border-right {
-  border-right: 1px solid #dddddd; }
+  border-right: 1px solid #ddd; }
 
 /* line 104, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_base.scss */
 .border-bottom {
-  border-bottom: 1px solid #dddddd; }
+  border-bottom: 1px solid #ddd; }
 
 /* line 107, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_base.scss */
 .border-left {
-  border-left: 1px solid #dddddd; }
+  border-left: 1px solid #ddd; }
 
 /* line 113, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_base.scss */
 .divider-default {
@@ -119,7 +119,7 @@ img {
 .icon-circle {
   color: #bbbbbb;
   padding: 10px 10px;
-  border: 1px solid #dddddd;
+  border: 1px solid #ddd;
   border-radius: 100px;
   font-size: 1.5em; }
   @media (max-width: 992px) {
@@ -138,91 +138,78 @@ img {
   src: url("../fonts/socialico-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/socialico-webfont.woff") format("woff"), url("../fonts/socialico-webfont.ttf") format("truetype"), url("../fonts/socialico-webfont.svg#socialicoregular") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'open_sanslight_italic';
   src: url("../fonts/opensans-lightitalic-webfont.eot");
   src: url("../fonts/opensans-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-lightitalic-webfont.woff2") format("woff2"), url("../fonts/opensans-lightitalic-webfont.woff") format("woff"), url("../fonts/opensans-lightitalic-webfont.ttf") format("truetype"), url("../fonts/opensans-lightitalic-webfont.svg#open_sanslight_italic") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'open_sansitalic';
   src: url("../fonts/opensans-italic-webfont.eot");
   src: url("../fonts/opensans-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-italic-webfont.woff2") format("woff2"), url("../fonts/opensans-italic-webfont.woff") format("woff"), url("../fonts/opensans-italic-webfont.ttf") format("truetype"), url("../fonts/opensans-italic-webfont.svg#open_sansitalic") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'open_sansextrabold_italic';
   src: url("../fonts/opensans-extrabolditalic-webfont.eot");
   src: url("../fonts/opensans-extrabolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-extrabolditalic-webfont.woff2") format("woff2"), url("../fonts/opensans-extrabolditalic-webfont.woff") format("woff"), url("../fonts/opensans-extrabolditalic-webfont.ttf") format("truetype"), url("../fonts/opensans-extrabolditalic-webfont.svg#open_sansextrabold_italic") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'open_sansbold';
   src: url("../fonts/opensans-bold-webfont.eot");
   src: url("../fonts/opensans-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-bold-webfont.woff2") format("woff2"), url("../fonts/opensans-bold-webfont.woff") format("woff"), url("../fonts/opensans-bold-webfont.ttf") format("truetype"), url("../fonts/opensans-bold-webfont.svg#open_sansbold") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'open_sanssemibold_italic';
   src: url("../fonts/opensans-semibolditalic-webfont.eot");
   src: url("../fonts/opensans-semibolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-semibolditalic-webfont.woff2") format("woff2"), url("../fonts/opensans-semibolditalic-webfont.woff") format("woff"), url("../fonts/opensans-semibolditalic-webfont.ttf") format("truetype"), url("../fonts/opensans-semibolditalic-webfont.svg#open_sanssemibold_italic") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'open_sanssemibold';
   src: url("../fonts/opensans-semibold-webfont.eot");
   src: url("../fonts/opensans-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-semibold-webfont.woff2") format("woff2"), url("../fonts/opensans-semibold-webfont.woff") format("woff"), url("../fonts/opensans-semibold-webfont.ttf") format("truetype"), url("../fonts/opensans-semibold-webfont.svg#open_sanssemibold") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'open_sansregular';
   src: url("../fonts/opensans-regular-webfont.eot");
   src: url("../fonts/opensans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-regular-webfont.woff2") format("woff2"), url("../fonts/opensans-regular-webfont.woff") format("woff"), url("../fonts/opensans-regular-webfont.ttf") format("truetype"), url("../fonts/opensans-regular-webfont.svg#open_sansregular") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'open_sanslight';
   src: url("../fonts/opensans-light-webfont.eot");
   src: url("../fonts/opensans-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-light-webfont.woff2") format("woff2"), url("../fonts/opensans-light-webfont.woff") format("woff"), url("../fonts/opensans-light-webfont.ttf") format("truetype"), url("../fonts/opensans-light-webfont.svg#open_sanslight") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'open_sansbold_italic';
   src: url("../fonts/opensans-bolditalic-webfont.eot");
   src: url("../fonts/opensans-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-bolditalic-webfont.woff2") format("woff2"), url("../fonts/opensans-bolditalic-webfont.woff") format("woff"), url("../fonts/opensans-bolditalic-webfont.ttf") format("truetype"), url("../fonts/opensans-bolditalic-webfont.svg#open_sansbold_italic") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'open_sansextrabold';
   src: url("../fonts/opensans-extrabold-webfont.eot");
   src: url("../fonts/opensans-extrabold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-extrabold-webfont.woff2") format("woff2"), url("../fonts/opensans-extrabold-webfont.woff") format("woff"), url("../fonts/opensans-extrabold-webfont.ttf") format("truetype"), url("../fonts/opensans-extrabold-webfont.svg#open_sansextrabold") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'brandon_grotesquebold';
   src: url("../fonts/brandon_bld-webfont.eot");
   src: url("../fonts/brandon_bld-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_bld-webfont.woff2") format("woff2"), url("../fonts/brandon_bld-webfont.woff") format("woff"), url("../fonts/brandon_bld-webfont.ttf") format("truetype"), url("../fonts/brandon_bld-webfont.svg#brandon_grotesquebold") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'brandon_grotesquelight';
   src: url("../fonts/brandon_light-webfont.eot");
   src: url("../fonts/brandon_light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_light-webfont.woff2") format("woff2"), url("../fonts/brandon_light-webfont.woff") format("woff"), url("../fonts/brandon_light-webfont.ttf") format("truetype"), url("../fonts/brandon_light-webfont.svg#brandon_grotesquelight") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 /* line 225, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .text-columns-2 {
   -webkit-columns: 24px 2;
@@ -240,137 +227,163 @@ img {
   -webkit-columns: 24px 4;
   -moz-columns: 24px 4;
   columns: 24px 4; }
+  @media (max-width: 767px) {
+    /* line 231, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+    .text-columns-4 {
+      -webkit-columns: 24px 2;
+      -moz-columns: 24px 2;
+      columns: 24px 2; } }
 
-/* line 235, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 237, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+.text-columns-5 {
+  -webkit-columns: 24px 5;
+  -moz-columns: 24px 5;
+  columns: 24px 5; }
+  @media (max-width: 767px) {
+    /* line 237, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+    .text-columns-5 {
+      -webkit-columns: 24px 2;
+      -moz-columns: 24px 2;
+      columns: 24px 2; } }
+
+/* line 244, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .text-uppercase {
   text-transform: uppercase; }
 
-/* line 244, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 253, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .light-font-name {
   font-family: "open_sanslight", Helvetica, Arial, sans-serif; }
 
-/* line 247, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 256, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .regular-font-name {
   font-family: "open_sansregular", Helvetica, Arial, sans-serif; }
 
-/* line 250, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 259, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .medium-font-name {
   font-family: "open_sanssemibold", Helvetica, Arial, sans-serif; }
 
-/* line 253, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 262, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .bold-font-name {
   font-family: "open_sansbold", Helvetica, Arial, sans-serif !important; }
 
-/* line 256, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 265, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .extra-bold-font-name {
   font-family: "open_sansextrabold", Helvetica, Arial, sans-serif; }
 
-/* line 260, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 269, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .social-font-name {
   font-family: "socialicoregular"; }
 
-/* line 267, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 276, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .primary-text-color {
-  color: #547bc0 !important; }
-  /* line 269, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+  color: #547BC0 !important; }
+  /* line 278, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
   .primary-text-color p {
-    color: #547bc0 !important; }
+    color: #547BC0 !important; }
 
-/* line 274, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 283, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .secondary-text-color {
-  color: #59c1ae !important; }
-  /* line 276, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+  color: #59C1AE !important; }
+  /* line 285, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
   .secondary-text-color p {
-    color: #59c1ae !important; }
+    color: #59C1AE !important; }
 
-/* line 281, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 290, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .body-text-color {
   color: #666666 !important; }
 
-/* line 285, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 294, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .text-color {
-  color: #2a2a2a !important; }
+  color: #2A2A2A !important; }
 
-/* line 289, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 298, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .dark-text-color {
-  color: #2a2a2a; }
+  color: #2A2A2A; }
 
-/* line 293, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 302, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+.light-text-color {
+  color: #666666; }
+
+/* line 306, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+.extra-light-text-color {
+  color: #919191; }
+
+/* line 310, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .text-success {
-  color: #85c342; }
+  color: #85C342; }
 
-/* line 297, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 314, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .text-warning {
   color: #f0ad4e; }
 
-/* line 301, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 318, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .link-color {
-  color: #4a90e2; }
+  color: #4A90E2; }
 
-/* line 306, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 323, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .white-text h1, .white-text h2, .white-text h3, .white-text h4, .white-text h5, .white-text h6, .white-text p, .white-text small, .white-text li {
   color: white !important; }
 
-/* line 313, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 330, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .micro-text {
   font-size: .7em; }
 
-/* line 322, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 339, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-weight: inherit; }
 
-/* line 325, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 342, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   margin-bottom: 12px; }
 
-/* line 334, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 351, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 p {
   font-size: 1em; }
 
-/* line 335, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 352, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 h1 {
   font-size: 2.5em; }
 
-/* line 336, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 353, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 h2 {
   font-size: 1.7em; }
 
-/* line 337, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 354, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 h3 {
   font-size: 1.2em; }
 
-/* line 338, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 355, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 h4 {
   font-size: 1em; }
 
-/* line 339, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 356, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 h5 {
   font-size: 1em;
   letter-spacing: 2pt;
   text-transform: uppercase; }
 
-/* line 340, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 357, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 h6 {
   font-size: 0.8em; }
 
-/* line 346, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 363, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 h2 {
   line-height: 1.6em;
   font-family: "open_sanslight", Helvetica, Arial, sans-serif; }
 
-/* line 351, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 368, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 h3 {
   line-height: 1.6em; }
 
-/* line 355, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 372, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 h4 {
   font-family: "open_sansbold", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 2pt;
   line-height: 1.6em; }
 
-/* line 362, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 379, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 h5 {
   color: #666666;
   text-transform: uppercase;
@@ -378,102 +391,123 @@ h5 {
   font-family: "brandon_grotesquelight";
   letter-spacing: 1px; }
 
-/* line 370, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 387, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 p {
   color: #666666;
   line-height: 1.8em;
   margin-bottom: 48px; }
-  /* line 374, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+  /* line 391, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
   p small {
     line-height: 1.5em; }
 
-/* line 380, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 397, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 blockquote {
-  border-left-color: #f1d2f6; }
-  /* line 382, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+  border-left-color: #f2d2f6; }
+  /* line 399, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
   blockquote p {
     font-family: "brandon_grotesquelight";
     font-size: 1.5em;
     margin-bottom: 12px;
     line-height: 1.2em;
-    color: #2a2a2a; }
-  /* line 389, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+    color: #2A2A2A; }
+  /* line 406, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
   blockquote footer {
-    color: #2a2a2a; }
-    /* line 391, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+    color: #2A2A2A; }
+    /* line 408, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
     blockquote footer cite {
       color: #bbbbbb; }
 
-/* line 398, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 415, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .signature {
   font-family: "open_sanslight", Helvetica, Arial, sans-serif;
   font-size: .8em; }
 
-/* line 405, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 422, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .line-through {
   text-decoration: line-through; }
 
-/* line 409, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 426, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 .page-header {
-  border-bottom-color: #dddddd; }
+  border-bottom-color: #ddd; }
 
-/* line 414, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 431, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 hr {
-  border-top-color: #dddddd; }
+  border-top-color: #ddd; }
 
-/* line 422, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 439, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 dl.list-get-started {
   counter-reset: my-badass-counter;
   margin-bottom: 48px; }
-  /* line 426, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+  /* line 443, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
   dl.list-get-started dt {
     margin-bottom: 12px;
     color: #666666;
     font-family: "open_sanslight", Helvetica, Arial, sans-serif;
     font-size: 1em; }
-    /* line 427, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+    /* line 444, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
     dl.list-get-started dt:before {
       content: counter(my-badass-counter) ".";
       counter-increment: my-badass-counter;
-      color: #2a2a2a;
+      color: #2A2A2A;
       font-family: "open_sansbold", Helvetica, Arial, sans-serif;
       margin-right: 10px; }
 
-/* line 441, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 458, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 ul.supported-platforms {
   float: left;
   margin-top: 12px; }
-  /* line 444, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+  /* line 461, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
   ul.supported-platforms li {
     margin-right: 12px; }
 
-/* line 452, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
+/* line 469, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_typography.scss */
 ul.pagination li a {
   background: transparent; }
 
 /* line 2, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_links_buttons.scss */
-a {
-  color: #4a90e2; }
+a, button {
+  color: #4A90E2; }
+  /* line 4, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_links_buttons.scss */
+  a:hover, a:active, a:focus, button:hover, button:active, button:focus {
+    text-decoration: none; }
+  /* line 7, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_links_buttons.scss */
+  a.white-link, button.white-link {
+    color: white !important; }
 
-/* line 6, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_links_buttons.scss */
+/* line 12, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_links_buttons.scss */
 .btn {
   border-radius: 3px;
   border: none;
-  letter-spacing: 1.2px;
-  font-family: "open_sanssemibold", Helvetica, Arial, sans-serif;
+  font-family: "open_sansbold", Helvetica, Arial, sans-serif;
   font-size: 1em; }
-  /* line 12, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_links_buttons.scss */
-  .btn.btn-primary {
-    background: #547bc0; }
-  /* line 15, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_links_buttons.scss */
-  .btn.btn-info {
-    background: #59c1ae; }
-  /* line 18, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_links_buttons.scss */
-  .btn.btn-default {
-    background: #d269e1;
+  /* line 17, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_links_buttons.scss */
+  .btn.btn-wire {
+    border: 1px solid rgba(255, 255, 255, 0.8);
     color: white; }
+    /* line 20, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_links_buttons.scss */
+    .btn.btn-wire:hover {
+      border-color: white;
+      color: white; }
+  /* line 25, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_links_buttons.scss */
+  .btn.btn-primary {
+    background: #547BC0; }
+  /* line 28, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_links_buttons.scss */
+  .btn.btn-info {
+    background: #59C1AE; }
+  /* line 31, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_links_buttons.scss */
+  .btn.btn-default {
+    background: #D269E1;
+    color: white; }
+  /* line 35, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_links_buttons.scss */
+  .btn.btn-secondary {
+    background: #ddd;
+    color: #2A2A2A; }
 
-/* line 24, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_links_buttons.scss */
+/* line 41, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_links_buttons.scss */
+.btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+  border-right: 2px solid white; }
+
+/* line 45, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_links_buttons.scss */
 a.play-video-button {
   background: white;
   text-align: center;
@@ -486,7 +520,7 @@ a.play-video-button {
   position: relative;
   top: 36px;
   transition-duration: .5s; }
-  /* line 36, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_links_buttons.scss */
+  /* line 57, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_links_buttons.scss */
   a.play-video-button:hover {
     background-color: #f2f2f2; }
 
@@ -723,7 +757,7 @@ section {
   padding: 48px 0; }
   /* line 6, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_sections.scss */
   section.invert-section, section.home-hero-sction, section.home-pricing-sction {
-    background-color: #547bc0; }
+    background-color: #547BC0; }
     /* line 8, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_sections.scss */
     section.invert-section h1, section.home-hero-sction h1, section.home-pricing-sction h1, section.invert-section h2, section.home-hero-sction h2, section.home-pricing-sction h2, section.invert-section h3, section.home-hero-sction h3, section.home-pricing-sction h3, section.invert-section h4, section.home-hero-sction h4, section.home-pricing-sction h4, section.invert-section h6, section.home-hero-sction h6, section.home-pricing-sction h6, section.invert-section p, section.home-hero-sction p, section.home-pricing-sction p, section.invert-section li, section.home-hero-sction li, section.home-pricing-sction li, section.invert-section small, section.home-hero-sction small, section.home-pricing-sction small {
       color: white; }
@@ -731,31 +765,56 @@ section {
 /* line 1, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_tables.scss */
 .base-table {
   margin-bottom: 0; }
-  /* line 3, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_tables.scss */
+  /* line 4, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_tables.scss */
   .base-table thead {
-    text-transform: uppercase;
-    font-size: .8em;
-    background-color: #f6f8fb;
-    border-top: 1px solid #dce4f2;
-    border-bottom: 1px solid #dce4f2; }
+    font-size: .9em;
+    border-bottom: none; }
     /* line 10, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_tables.scss */
     .base-table thead tr th {
-      border-bottom: 1px solid #dce4f2;
+      border-bottom: 1px solid #ddd;
       padding-top: 16px !important;
       padding-bottom: 16px !important; }
-  /* line 18, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_tables.scss */
-  .base-table tbody tr {
-    transition-duration: .3s; }
-    /* line 20, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_tables.scss */
-    .base-table tbody tr td {
-      padding-top: 16px !important;
-      padding-bottom: 16px !important; }
-    /* line 24, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_tables.scss */
-    .base-table tbody tr:nth-of-type(odd) {
-      background-color: #FDFCFC; }
-    /* line 27, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_tables.scss */
-    .base-table tbody tr:hover {
-      background-color: #f2f2f2; }
+  /* line 19, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_tables.scss */
+  .base-table tbody tr td {
+    vertical-align: middle;
+    padding-top: 16px !important;
+    padding-bottom: 16px !important; }
+  /* line 24, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_tables.scss */
+  .base-table tbody tr:hover {
+    background-color: #f2f2f2; }
+
+/* line 4, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_navs.scss */
+ul.nav-tabs-default li.active a {
+  background: transparent;
+  border: none;
+  color: white;
+  box-shadow: inset 0 -4px 0 0 #59C1AE; }
+  /* line 9, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_navs.scss */
+  ul.nav-tabs-default li.active a:hover, ul.nav-tabs-default li.active a:active, ul.nav-tabs-default li.active a:focus {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: white; }
+/* line 17, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_navs.scss */
+ul.nav-tabs-default li a {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.8);
+  text-transform: uppercase;
+  font-family: "open_sanssemibold", Helvetica, Arial, sans-serif;
+  letter-spacing: .5px;
+  border: none; }
+  /* line 24, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_navs.scss */
+  ul.nav-tabs-default li a:hover, ul.nav-tabs-default li a:active, ul.nav-tabs-default li a:focus {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: white; }
+
+/* line 34, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_navs.scss */
+.tabs-fixed-top {
+  position: fixed;
+  width: 100%;
+  z-index: 300; }
 
 /* line 1, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_panels_wells.scss */
 .card {
@@ -803,6 +862,10 @@ section {
   background: transparent;
   box-shadow: none; }
 
+/* line 16, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_forms.scss */
+.radio label, .checkbox label {
+  color: #666666; }
+
 /* line 1, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_alerts.scss */
 .alert-info {
   background: #ffffdf;
@@ -810,7 +873,7 @@ section {
   color: #666666; }
   /* line 4, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_alerts.scss */
   .alert-info strong {
-    color: #2a2a2a; }
+    color: #2A2A2A; }
 
 /* line 1, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/partials/_videos.scss */
 .videoWrapper {
@@ -830,65 +893,120 @@ section {
 
 /* line 1, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
 .main-nav {
-  background: #4b6eac;
+  background: #4c6fad;
   padding: 12px 0;
   transition-duration: .4s;
-  border: none; }
-  /* line 6, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
+  border: none;
+  height: 74px; }
+  /* line 8, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
+  .main-nav h2 {
+    margin-top: 0px;
+    margin-bottom: 0; }
+    @media (max-width: 767px) {
+      /* line 8, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
+      .main-nav h2 {
+        margin-left: 20px; } }
+    /* line 14, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
+    .main-nav h2 a {
+      color: white; }
+      /* line 16, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
+      .main-nav h2 a.close-popup {
+        font-family: "open_sansregular", Helvetica, Arial, sans-serif;
+        font-size: 30px;
+        position: relative;
+        top: 3px; }
+  /* line 24, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
   .main-nav .navbar-toggle {
     border: none; }
-  /* line 9, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
+  /* line 27, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
   .main-nav .navbar-brand {
     padding-top: 0;
     padding-bottom: 0; }
-  /* line 14, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
+  /* line 32, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
+  .main-nav .dropup ul.dropdown-menu {
+    left: auto !important;
+    right: 0 !important; }
+  /* line 39, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
+  .main-nav ul.navbar-nav.actions {
+    margin-top: 5px; }
+    /* line 41, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
+    .main-nav ul.navbar-nav.actions li {
+      font-size: 1em;
+      text-transform: none;
+      letter-spacing: 0px;
+      margin-right: 10px; }
+      /* line 46, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
+      .main-nav ul.navbar-nav.actions li a, .main-nav ul.navbar-nav.actions li button {
+        padding: 10px 16px; }
+        /* line 48, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
+        .main-nav ul.navbar-nav.actions li a.more, .main-nav ul.navbar-nav.actions li button.more {
+          font-size: 1.3em; }
+      /* line 55, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
+      .main-nav ul.navbar-nav.actions li a.btn-info:hover {
+        background: #50ae9d; }
+      /* line 61, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
+      .main-nav ul.navbar-nav.actions li ul.dropdown-menu {
+        border-radius: 3px;
+        padding: 4px; }
+        /* line 64, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
+        .main-nav ul.navbar-nav.actions li ul.dropdown-menu.dd {
+          top: 90% !important;
+          left: -114px !important; }
+        /* line 68, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
+        .main-nav ul.navbar-nav.actions li ul.dropdown-menu li {
+          margin: 0;
+          font-family: "open_sansregular", Helvetica, Arial, sans-serif; }
+          /* line 71, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
+          .main-nav ul.navbar-nav.actions li ul.dropdown-menu li a {
+            color: #2A2A2A; }
+  /* line 78, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
   .main-nav ul.navbar-nav li {
     font-family: "open_sansbold", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-size: .8em;
     letter-spacing: 1.5px; }
-    /* line 19, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
+    /* line 83, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
     .main-nav ul.navbar-nav li a {
       color: white;
       transition-duration: .2s; }
-      /* line 22, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
+      /* line 86, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
       .main-nav ul.navbar-nav li a:hover {
         color: rgba(255, 255, 255, 0.8); }
-      /* line 25, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
+      /* line 89, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
       .main-nav ul.navbar-nav li a:focus {
         color: white; }
-    /* line 31, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
+    /* line 95, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
     .main-nav ul.navbar-nav li.dropdown.open a {
-      background: #547bc0;
+      background: #547BC0;
       color: white; }
-    /* line 36, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
+    /* line 100, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
     .main-nav ul.navbar-nav li.dropdown ul.dropdown-menu {
       border-radius: 3px;
       padding: 12px 0; }
-      /* line 39, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
+      /* line 103, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
       .main-nav ul.navbar-nav li.dropdown ul.dropdown-menu li {
         font-family: "open_sanssemibold", Helvetica, Arial, sans-serif;
         font-size: .8em; }
-        /* line 42, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
+        /* line 106, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
         .main-nav ul.navbar-nav li.dropdown ul.dropdown-menu li a {
           background: transparent;
-          color: #547bc0;
+          color: #547BC0;
           text-transform: none;
           letter-spacing: 0;
           padding: 6px 16px; }
-          /* line 48, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
+          /* line 112, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
           .main-nav ul.navbar-nav li.dropdown ul.dropdown-menu li a:hover {
             background: #fafafa; }
           @media (max-width: 767px) {
-            /* line 42, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
+            /* line 106, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
             .main-nav ul.navbar-nav li.dropdown ul.dropdown-menu li a {
               color: white; } }
         @media (max-width: 767px) {
-          /* line 55, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
+          /* line 119, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
           .main-nav ul.navbar-nav li.dropdown ul.dropdown-menu li.divider {
             display: none; } }
 
-/* line 67, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
+/* line 131, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_header.scss */
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
   border: none;
   box-shadow: none; }
@@ -900,7 +1018,7 @@ footer.main-footer img.footer-logo {
 
 /* line 1, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_home.scss */
 .home-hero-sction {
-  background: #547bc0 url("../../images/main_banner.png") no-repeat scroll center top;
+  background: #547BC0 url("../../images/main_banner.png") no-repeat scroll center top;
   background-size: cover; }
   /* line 5, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_home.scss */
   .home-hero-sction .btn {
@@ -908,7 +1026,7 @@ footer.main-footer img.footer-logo {
 
 /* line 10, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_home.scss */
 .home-pricing-sction {
-  background: #547bc0 url("../../images/macbook_banner.png") no-repeat scroll center top;
+  background: #547BC0 url("../../images/macbook_banner.png") no-repeat scroll center top;
   background-size: cover; }
 
 /* line 19, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_home.scss */
@@ -1010,12 +1128,12 @@ a.units {
 /* line 96, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_dollar_picker.scss */
 .units.unselected {
   box-shadow: 140px 0 90px -180px inset;
-  background-color: #f6f8fb; }
+  background-color: #f6f8fc; }
 
 /* line 1, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_login.css.scss */
 .url-container {
   background: white;
-  border: 1px solid #dddddd;
+  border: 1px solid #ddd;
   border-radius: 3px; }
   /* line 5, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_login.css.scss */
   .url-container input {
@@ -1023,7 +1141,7 @@ a.units {
     border: none;
     text-align: right;
     box-shadow: none;
-    color: #547bc0; }
+    color: #547BC0; }
     /* line 11, /Users/alauderdale/Desktop/coopt-backend/source/stylesheets/elements/_login.css.scss */
     .url-container input:focus {
       box-shadow: none;
@@ -1037,4 +1155,4 @@ a.units {
     line-height: 24px;
     position: relative;
     right: 45px;
-    color: #547bc0; }
+    color: #547BC0; }

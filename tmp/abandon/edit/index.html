@@ -1,0 +1,317 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<title>
+Abandon cart
+</title>
+<link href="../../stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
+<link href='/images/favicon.ico' rel='shortcut icon'>
+<script src="../../javascripts/lib/jquery.js" type="text/javascript"></script>
+<script src="../../javascripts/lib/bootstrap.js" type="text/javascript"></script>
+<script src="../../javascripts/lib/jquery.fancybox.pack.js" type="text/javascript"></script>
+<script src="../../javascripts/lib/helpers/jquery.fancybox-media.js" type="text/javascript"></script>
+<script src="../../javascripts/scripts.js" type="text/javascript"></script>
+
+<body class='abandon abandon_edit abandon_edit_index' data-offset='59' data-spy='scroll' data-target='#main-nav'>
+<div class='main'>
+<!-- //mobile nav -->
+<nav class='navbar navbar-inverse navbar-default navbar-fixed-bottom main-nav visible-xs' style='height:57px;'>
+<div class='container'>
+<ul class='list-inline pull-right no-margin-bottom'>
+<li>
+<a class='btn btn-wire' href='/sales-report'>
+Preview
+</a>
+</li>
+<li>
+<a class='btn btn-info' href='/sales-report'>
+Save and close
+</a>
+</li>
+<li>
+<div class='dropup'>
+<button aria-expanded='false' class='more btn-link btn white-link dropdown-toggle' data-toggle='dropdown' type='button'>
+<i class='fa fa-ellipsis-h'></i>
+</button>
+<ul class='dropdown-menu' role='menu'>
+<li>
+<a href='#'>
+Send test email
+</a>
+</li>
+<li>
+<a href='#'>
+Reset template
+</a>
+</li>
+<li>
+<a href='#'>
+Delete reminder
+</a>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+}
+</nav>
+<nav class='navbar navbar-inverse navbar-default navbar-fixed-top main-nav'>
+<div class='container'>
+<div class='navbar-header white-text'>
+<h2 class='regular-font-name'>
+<a class='close-popup half-margin-right' href='/abandon'>
+×
+</a>
+Fourth Reminder
+</h2>
+</div>
+<ul class='nav navbar-nav pull-right actions hidden-xs'>
+<li>
+<a class='btn btn-wire' href='/abandon'>
+Preview
+</a>
+</li>
+<li>
+<a class='btn btn-info' href='/abandon'>
+Save and close
+</a>
+</li>
+<li>
+<button aria-expanded='false' class='more btn-link btn white-link dropdown-toggle' data-toggle='dropdown' type='button'>
+<i class='fa fa-ellipsis-h'></i>
+</button>
+<ul class='dropdown-menu dd' role='menu'>
+<li>
+<a href='#'>
+Send test email
+</a>
+</li>
+<li>
+<a href='#'>
+Reset template
+</a>
+</li>
+<li>
+<a href='#'>
+Delete reminder
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</nav>
+<section class='invert-section text-center no-padding tabs-fixed-top'>
+<div class='container'>
+<div class='row'>
+<div class='col-lg-12'>
+<ul class='nav nav-tabs nav-tabs-default'>
+<li class='active'>
+<a href='/abandon/edit'>
+Settings
+</a>
+</li>
+<li>
+<a href='/abandon/edit/email'>
+Email body
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<div class='padding-top'></div>
+<section class='no-padding-bottom'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-3'>
+<h3 class='quarter-margin-bottom bold-font-name no-margin-top dark-text-color'>
+Details
+</h3>
+<p class='half-margin-bottom'>
+corrupti quas nobis quidem quia error quasi nostrum
+</p>
+</div>
+<div class='col-md-9'>
+<div class='panel'>
+<div class='panel-body padded'>
+<form class='margin-bottom'>
+<div class='form-group'>
+<label>
+Email subject
+</label>
+<input class='form-control input-lg' placeholder='I’m an example subject to provide context'>
+</div>
+</form>
+<form>
+<div class='form-group'>
+<label>
+Store logo URL
+</label>
+<input class='form-control input-lg' placeholder='http://path/to/logo.png'>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class='no-padding-bottom'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-3'>
+<h3 class='quarter-margin-bottom bold-font-name no-margin-top dark-text-color'>
+Delivery
+</h3>
+<p class='half-margin-bottom'>
+qui eaque beatae quaerat est enim enim aliquam
+</p>
+</div>
+<div class='col-md-9'>
+<div class='panel'>
+<div class='panel-body padded'>
+<div class='margin-bottom'>
+<label>
+Delay
+</label>
+<p class='half-margin-bottom'>
+How long after checkout has started do you want to send this reminder?
+</p>
+<form class='form-inline'>
+<select class='form-control input-lg'>
+<option>
+4
+</option>
+</select>
+<select class='form-control input-lg'>
+<option>
+Miniutes
+</option>
+</select>
+</form>
+</div>
+<div class='margin-bottom'>
+<label>
+Send on Captured
+<span>
+<i class='fa fa-question-circle-o tooltip-up body-text-color' data-toggle='tooltip' title='Nunc nec pharetra leo, eu aliquet enim. Donec porta tempus dui. '></i>
+</span>
+</label>
+<form>
+<div class='checkbox no-margin no-padding height-auto'>
+<label>
+<input checked='checked' type='checkbox'>
+<span class='quarter-margin-left'>
+Send for checkouts captured before the shipping page
+</span>
+</label>
+</div>
+</form>
+</div>
+<div class='margin-bottom'>
+<label>
+Send on Abandoned
+<span>
+<i class='fa fa-question-circle-o tooltip-up body-text-color' data-toggle='tooltip' title='Nunc nec pharetra leo, eu aliquet enim. Donec porta tempus dui. '></i>
+</span>
+</label>
+<form>
+<div class='checkbox no-margin no-padding height-auto'>
+<label>
+<input checked='checked' type='checkbox'>
+<span class='quarter-margin-left'>
+Send for checkouts abandoned on or after the shipping page
+</span>
+</label>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class='no-padding-bottom'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-3'>
+<h3 class='quarter-margin-bottom bold-font-name no-margin-top dark-text-color'>
+Delivery
+</h3>
+<p class='half-margin-bottom'>
+accusantium quo et quidem ducimus omnis optio voluptatum
+</p>
+</div>
+<div class='col-md-9'>
+<div class='panel'>
+<div class='panel-body padded'>
+<div class='margin-bottom'>
+<label>
+Background
+<span>
+<i class='fa fa-question-circle-o tooltip-up body-text-color' data-toggle='tooltip' title='Nunc nec pharetra leo, eu aliquet enim. Donec porta tempus dui. '></i>
+</span>
+</label>
+<div class='color-picker'>
+<p class='no-margin-bottom'>
+[Color picker]
+</p>
+</div>
+</div>
+<div class='margin-bottom'>
+<label>
+Button
+<span>
+<i class='fa fa-question-circle-o tooltip-up body-text-color' data-toggle='tooltip' title='Nunc nec pharetra leo, eu aliquet enim. Donec porta tempus dui. '></i>
+</span>
+</label>
+<div class='color-picker'>
+<p class='no-margin-bottom'>
+[Color picker]
+</p>
+</div>
+</div>
+<div class='margin-bottom'>
+<label>
+Link
+<span>
+<i class='fa fa-question-circle-o tooltip-up body-text-color' data-toggle='tooltip' title='Nunc nec pharetra leo, eu aliquet enim. Donec porta tempus dui. '></i>
+</span>
+</label>
+<div class='color-picker'>
+<p class='no-margin-bottom'>
+[Color picker]
+</p>
+</div>
+</div>
+<div class='no-margin-bottom'>
+<label>
+Text
+<span>
+<i class='fa fa-question-circle-o tooltip-up body-text-color' data-toggle='tooltip' title='Nunc nec pharetra leo, eu aliquet enim. Donec porta tempus dui. '></i>
+</span>
+</label>
+<div class='color-picker'>
+<p class='no-margin-bottom'>
+[Color picker]
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+</div>
+</body>
+</head>
+</html>

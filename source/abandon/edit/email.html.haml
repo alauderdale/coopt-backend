@@ -1,0 +1,99 @@
+;;;
+"title": "Abandon cart",
+"layout": "new-cart"
+;;;
+
+///mobile nav
+%nav.navbar.navbar-inverse.navbar-default.navbar-fixed-bottom.main-nav.visible-xs{:style=>"height:57px;"}
+	.container
+		%ul.list-inline.pull-right.no-margin-bottom
+			%li
+				%a.btn.btn-wire{:href => "/sales-report"} 
+					Preview
+			%li
+				%a.btn.btn-info{:href => "/sales-report"} 
+					Save and close
+			%li
+				.dropup
+					%button.more.btn-link.btn.white-link.dropdown-toggle{"aria-expanded" => "false", "data-toggle" => "dropdown", :type => "button"}
+						%i.fa.fa-ellipsis-h
+					%ul.dropdown-menu{:role => "menu"}
+						%li
+							%a{:href => "#"} 
+								Send test email
+						%li
+							%a{:href => "#"} 
+								Reset template
+						%li
+							%a{:href => "#"} 
+								Delete reminder
+	}
+
+%nav.navbar.navbar-inverse.navbar-default.navbar-fixed-top.main-nav
+	.container
+		.navbar-header.white-text
+			%h2.regular-font-name
+				%a.close-popup.half-margin-right{:href=>"/abandon"}
+					×
+				Fourth Reminder
+		%ul.nav.navbar-nav.pull-right.actions.hidden-xs
+			%li
+				%a.btn.btn-wire{:href => "/abandon"} 
+					Preview
+			%li
+				%a.btn.btn-info{:href => "/abandon"} 
+					Save and close
+			%li
+				%button.more.btn-link.btn.white-link.dropdown-toggle{"aria-expanded" => "false", "data-toggle" => "dropdown", :type => "button"}
+					%i.fa.fa-ellipsis-h
+				%ul.dropdown-menu.dd{:role => "menu"}
+					%li
+						%a{:href => "#"} 
+							Send test email
+					%li
+						%a{:href => "#"} 
+							Reset template
+					%li
+						%a{:href => "#"} 
+							Delete reminder
+
+
+
+
+
+%section.invert-section.text-center.no-padding.tabs-fixed-top
+	.container
+		.row
+			.col-lg-12
+				%ul.nav.nav-tabs.nav-tabs-default
+					%li
+						%a{:href=>"/abandon/edit"}
+							Settings
+					%li.active
+						%a{:href=>"/abandon/edit/email"}
+							Email body
+.padding-top
+
+%section.no-padding-bottom
+	.container
+		.row
+			.col-md-3
+				%h3.quarter-margin-bottom.bold-font-name.no-margin-top.dark-text-color
+					Email body
+				%p.half-margin-bottom
+					=lorem.words(8)
+			.col-md-9
+				.panel
+					.panel-body.padded
+						%label
+							Liquid variables
+						%p.half-margin-bottom
+							You can use liquid variables to customize the email.
+						.row
+							.col-lg-12
+								.text-columns-5
+									-15.times do
+										%h6.extra-light-text-color.quarter-margin-bottom
+											{{store_name}}
+								.wysiwyg-container.margin-top
+									%span{:style=>"width:100%; display:block; height:400px; background:#f2f2f2;"}

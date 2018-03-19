@@ -230,6 +230,15 @@ $text-column-gutter-width: $baseline;
 }
 .text-columns-4{
   @include columns($text-column-gutter-width 4);
+  @include breakpoint(sm) {
+    @include columns($text-column-gutter-width 2);
+  }
+}
+.text-columns-5{
+  @include columns($text-column-gutter-width 5);
+    @include breakpoint(sm) {
+    @include columns($text-column-gutter-width 2);
+  }
 }
 
 .text-uppercase{
@@ -288,6 +297,14 @@ $text-column-gutter-width: $baseline;
 
 .dark-text-color{
   color:$dark-text-color;
+}
+
+.light-text-color{
+  color:$light-text-color;
+}
+
+.extra-light-text-color{
+  color:$extra-light-text-color;
 }
 
 .text-success{

@@ -61,10 +61,135 @@
 
 
 
-%section.invert-section.text-center.section-dollar
+%section.invert-section.text-center.no-padding.tabs-fixed-top
 	.container
 		.row
 			.col-lg-12
+				%ul.nav.nav-tabs.nav-tabs-default
+					%li.active
+						%a{:href=>"/abandon/edit"}
+							Settings
+					%li
+						%a{:href=>"/abandon/edit/email"}
+							Email body
+.padding-top
+
+%section.no-padding-bottom
+	.container
+		.row
+			.col-md-3
+				%h3.quarter-margin-bottom.bold-font-name.no-margin-top.dark-text-color
+					Details
+				%p.half-margin-bottom
+					=lorem.words(8)
+			.col-md-9
+				.panel
+					.panel-body.padded
+						%form.margin-bottom
+							.form-group
+								%label
+									Email subject
+								%input.form-control.input-lg{:placeholder=>"I’m an example subject to provide context"}
+						%form
+							.form-group
+								%label
+									Store logo URL
+								%input.form-control.input-lg{:placeholder=>"http://path/to/logo.png"}
+
+
+%section.no-padding-bottom
+	.container
+		.row
+			.col-md-3
+				%h3.quarter-margin-bottom.bold-font-name.no-margin-top.dark-text-color
+					Delivery
+				%p.half-margin-bottom
+					=lorem.words(8)
+			.col-md-9
+				.panel
+					.panel-body.padded
+						.margin-bottom
+							%label
+								Delay
+							%p.half-margin-bottom
+								How long after checkout has started do you want to send this reminder?
+							%form.form-inline
+								%select.form-control.input-lg
+									%option
+										4
+								%select.form-control.input-lg
+									%option
+										Miniutes
+						.margin-bottom
+							%label
+								Send on Captured
+								%span
+									%i.fa.fa-question-circle-o.tooltip-up.body-text-color{"data-toggle"=>"tooltip", :title=>"Nunc nec pharetra leo, eu aliquet enim. Donec porta tempus dui. "}
+							%form
+								.checkbox.no-margin.no-padding.height-auto
+									%label
+										%input{:type=>"checkbox", :checked=>"checked"}
+										%span.quarter-margin-left
+											Send for checkouts captured before the shipping page
+											
+						.margin-bottom
+							%label
+								Send on Abandoned
+								%span
+									%i.fa.fa-question-circle-o.tooltip-up.body-text-color{"data-toggle"=>"tooltip", :title=>"Nunc nec pharetra leo, eu aliquet enim. Donec porta tempus dui. "}
+							%form
+								.checkbox.no-margin.no-padding.height-auto
+									%label
+										%input{:type=>"checkbox", :checked=>"checked"}
+										%span.quarter-margin-left
+											Send for checkouts abandoned on or after the shipping page
+											
+								
+							
+%section.no-padding-bottom
+	.container
+		.row
+			.col-md-3
+				%h3.quarter-margin-bottom.bold-font-name.no-margin-top.dark-text-color
+					Delivery
+				%p.half-margin-bottom
+					=lorem.words(8)
+			.col-md-9
+				.panel
+					.panel-body.padded
+						.margin-bottom
+							%label
+								Background
+								%span
+									%i.fa.fa-question-circle-o.tooltip-up.body-text-color{"data-toggle"=>"tooltip", :title=>"Nunc nec pharetra leo, eu aliquet enim. Donec porta tempus dui. "}
+							.color-picker
+								%p.no-margin-bottom
+									[Color picker]
+						.margin-bottom
+							%label
+								Button
+								%span
+									%i.fa.fa-question-circle-o.tooltip-up.body-text-color{"data-toggle"=>"tooltip", :title=>"Nunc nec pharetra leo, eu aliquet enim. Donec porta tempus dui. "}
+							.color-picker
+								%p.no-margin-bottom
+									[Color picker]
+						.margin-bottom
+							%label
+								Link
+								%span
+									%i.fa.fa-question-circle-o.tooltip-up.body-text-color{"data-toggle"=>"tooltip", :title=>"Nunc nec pharetra leo, eu aliquet enim. Donec porta tempus dui. "}
+							.color-picker
+								%p.no-margin-bottom
+									[Color picker]
+						.no-margin-bottom
+							%label
+								Text
+								%span
+									%i.fa.fa-question-circle-o.tooltip-up.body-text-color{"data-toggle"=>"tooltip", :title=>"Nunc nec pharetra leo, eu aliquet enim. Donec porta tempus dui. "}
+							.color-picker
+								%p.no-margin-bottom
+									[Color picker]
+											
 				
 				
 
